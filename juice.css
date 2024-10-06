@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Dancing+Script&family=Dosis&family=Inconsolata&family=Pacifico&family=Qwitcher+Grypen&family=Roboto&family=Source+Code+Pro&family=Tilt+Prism&display=swap');
+body{
+	margin:0 auto ;
+}
+.div2{
+	position: fixed;
+	width:100%;
+	background-color: teal;
+	opacity: 0.5;
+	z-index: 2;
+	height: 10vh;
+}
+.press{
+	position: absolute;
+	position: fixed;
+	top: 0;left: 0;
+	width: 100%;
+	display:flex;
+	padding: 1px 90px;
+	height:max-content;
+	box-sizing: border-box;
+	justify-content:space-between;
+	z-index: 3;	
+}
+.press h1{
+    color:white;
+	font-size: 20px;
+	text-align: center;
+	font-family:Tilt Prism ;
+	/*animation: food 0.3s infinite alternate;*/
+
+	
+}@keyframes food{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.press>ul{
+	display:flex;
+	align-items:center ;
+	/*justify-content:space-between;*/
+	list-style:none;
+	/*margin-left: 30%;*/
+
+}
+.press>ul>li{
+	padding: 3px 25px;
+	position: relative;
+}
+.press>ul>li>a {
+	text-decoration:none;
+	color: white;
+	font-size:13px ;
+	font-family:Roboto ;
+	transition:all 0.10s ease-in-out;
+}
+.press>ul>li>a:hover{
+	color:red;
+	/*border:5px solid chocolate;*/
+}
+
+ .div1{
+ 	width:100%;
+ 	height:100vh;
+   background-image:url(Popular-Nigerian-Food.jpg); 
+   box-sizing: border-box;
+ 	background-size:cover;
+   background-position: center;
+   padding:10px 50px;
+   z-index: 1;
+}
+.div3{
+	top: 0;
+	width:100%;
+	height:100vh;
+	background-color:teal;
+	position: absolute;
+	opacity: 0.2;
+}
+.div4{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	position:absolute;	
+	top: 0;
+	width:100%;
+	height:100vh;
+	color: white;
+	line-height: 0;
+   padding-top: 150px;
+   box-sizing:border-box;
+}
+.div4 h1{
+	font-size:70px ;
+	font-family:Tilt Prism;
+	animation: glass 2s infinite ; 
+}
+@keyframes glass{
+	from{
+		transform: scale(0.3);
+		color:red ;
+	}
+	50%{
+		transform: scale(0.5);
+		color: chocolate;
+	}
+	to{
+		transform:scale(1) ;
+	}
+}
+
+.div4 h2{
+	font-family: Roboto;
+	font-size: 70px;
+	font-weight: 1000;
+}
+.div4 p{
+	text-align: center;
+	font-size:30px;
+	line-height:20px;
+	font-family: Roboto;
+}
+.mango .water{
+	background-color: teal;
+	list-style:none;
+	width:100px;
+	padding:15px;
+	display: none;
+	position: absolute;
+	top:7vh;
+}
+.water li{
+	padding: 5px;
+	font-size:13px ;
+	font-family:Roboto ;
+}
+.water li a{
+	text-decoration:none;
+	color: white;
+}
+.mango:hover> .water{
+	display: block;
+}
+.div5{
+   margin-top: 6%;
+   line-height:7px;
+}
+
+
+.div5 h1{
+	font-size:40px;
+	font-family:Source Code Pro;
+	text-align: center;
+	font-weight:bold;
+
+}
+.div5 p{
+	font-size:20px ;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+
+
+}
+.div6{
+	display: flex;
+	justify-content:space-between;
+	/*flex-direction:row;*/
+	/*justify-content:center;*/
+	align-items: center;
+	width: 80%;
+	margin: 5% 10%;
+	/*flex-flow: wrap;*/
+	column-gap:5%;
+
+}
+.div6 .div7{
+	/*display: flex;
+	height:50vh;
+	width: 50%;
+	padding: 10px;*/
+	width: 35%;
+}
+.div7 .img1{
+	width: 100%;
+	height: 40vh;
+}
+.div7 .div8{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.div7 .div8 img{
+	width: 55%;
+	height: 100px;
+}
+.div9{
+	width: 70%;
+	/*font-weight: bold;*/
+	/*font-family: Qwitcher Grypen;*/
+	/*font-family:Barriecito ;*/
+	/*font-family:Black Ops One ;*/
+	/*font-family:Dancing Script ;*/
+	/*font-family:Dosis ;*/
+	font-family: Inconsolata;
+	font-size:23px;
+}
+.div10{
+	position: relative;
+	width:100%;
+ 	height:120vh;
+   background-image:url(ingredients2.jpg); 
+ 	background-size:cover;
+   background-position: center;
+   z-index: 0;
+}
+.div11{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height:100%;
+	background-color:teal;
+	opacity: 0.2;
+	z-index: 1;
+}
+.div12{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content:center;*/
+	/*align-items: center;*/
+	position:absolute;	
+	top: 0;
+	width:100%;
+	height:100vh;
+   padding-top: 17px;
+   box-sizing:border-box;
+   z-index: 2;
+
+}
+
+.div12> h1{
+	font-size:40px;
+	font-family:Source Code Pro;
+	text-align: center;
+	font-weight:bold;
+	color: white;
+	
+}
+.div12> p{
+	font-size:20px ;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+	color: white;
+}
+.div13{
+	position: relative;
+	display: grid;
+	place-items:center;
+	
+	align-items: center;
+	width: 70%;
+	height: 70%;
+	margin: 5% 15%;
+	
+	background-color: white;
+	/*position: absolute;*/
+	overflow:hidden;
+}
+.div14{
+	width: 100%;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	animation: flow 5s infinite ;
+
+}
+@keyframes flow {
+	0%{
+		transform: translateX(0);
+
+	}
+	50%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(-200%);
+	}
+
+}
+.div14 img{
+	width: 35%;
+	height: 100%;
+}
+.div15{
+   font-family: Inconsolata;
+	font-size:20px;
+	padding:5px 10px;
+	box-sizing: border-box;
+}
+.div14:nth-child(1){
+	left: 0;
+}
+.div14:nth-child(2){
+	left: 100%;
+}
+.div14:nth-child(3){
+	left: 200%;
+}
+
+.div14 .div15 .btl1{
+	background-color:teal;
+	color: white;
+	padding: 10px;
+	border-radius:15px;
+	width:200px;	
+	height: 50px;
+	font-size:20px;
+
+}
+
+.div14 .div15 .btl2{
+	background-color:grey;
+	color: white;
+	padding: 10px;
+	border-radius:15px;
+	width:200px;	
+	height:50px;
+	font-size:20px;
+}
+.div16{
+   margin-top: 6%;
+   line-height:7px;
+}
+
+
+.div16 h1{
+	font-size:40px;
+	font-family:Source Code Pro;
+	text-align: center;
+	font-weight:bold;
+
+}
+.div16 p{
+	font-size:20px ;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+
+}
+.div16 .la{
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	gap: 5%;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	/* position: relative; */
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 50vh;
+	margin:0% 10%;
+	border: 1px solid grey;
+}
+form input{
+	background-color: grey;
+	width: 250px;
+	height:5vh;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-top:20px;
+	color:white;
+	border: none;
+}
+form label{
+	font-size:17px;
+	font-family:Source Code Pro;
+	font-weight:bold;
+	/*line-height:5px ;*/
+	margin: 4px;
+}
+.div16 .btl{
+	background-color:teal;
+	color: white;
+	padding: 5px;
+	width:200px;	
+	height: 50px;
+	font-size:20px;
+	border: none;
+}
+.div17{
+    position: relative;
+    text-align: center;
+    background-color:wheat;
+    padding-top:15px;
+	width: 80%;
+	height: 12vh;
+	margin:0%  10% 7% 10%;
+	
+}
+.div18{
+	position: relative;
+	width:100%;
+ 	height:119vh;
+    background-image:url(plantain.jpg);
+    background-position:center;
+	background-size:cover;
+   z-index: 0;
+}
+.div19{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height:119vh;
+	background-color:teal;
+	opacity: 0.3;
+	z-index: 1;
+}
+.div20{
+	position:absolute;	
+	top: 0;
+	width:100%;
+	height:119vh;
+   padding-top: 17px;
+   box-sizing:border-box;
+   z-index: 2;
+   /*margin-top: 3%;*/
+   line-height:7px;
+
+}
+.div20> h1{
+	font-size:40px;
+	font-family:Source Code Pro;
+	text-align: center;
+	font-weight:bold;
+	color: white;
+	
+}
+.div20> p{
+	font-size:20px ;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+	color: white;
+}
+.div21{
+	position: relative;
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+	width: 70%;
+	height: 70vh;
+	margin: 10% 15% 0% 15%;
+	gap:20px;
+
+}
+
+.div22{
+
+	width: 30%;
+	height: 90vh;
+	overflow: hidden;
+}
+.div22 img{
+	width: 100%;
+	height: 37vh;
+}
+.div23{
+	background-color: white;
+	width: 100%;
+	height: 45vh;
+	padding: 16px;
+	box-sizing: border-box;
+	
+}
+.div23 h1{
+	font-size:21px;
+	font-family:Source Code Pro;
+	/*text-align: center;*/
+	font-weight:bold;
+	color:grey;
+	
+}
+.div23 p{
+	font-size:19px;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+	color:grey;
+	line-height: 20px;
+	margin-top: 7%;
+}
+.div22:hover img{
+	transform: scale(1.1);
+
+}
+.div24{
+	width: 100%;
+	height: 15vh;
+   margin-top: 6%;
+   line-height:7px;
+}
+
+
+.div24 h1{
+	font-size:40px;
+	font-family:Source Code Pro;
+	text-align: center;
+	font-weight:bold;
+
+}
+.div24 p{
+	font-size:20px ;
+	text-align: center;
+	font-family: Source Code Pro;
+	font-weight:bold;
+
+
+}
+
+
+.div25{
+	position: relative;
+	width:100%;
+ 	height:90vh;
+   background-image:url(tomato.jpg); 
+ 	background-size:cover;
+   background-position: center;
+   z-index: 0;
+}
+.div26{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity: 0.3;
+	z-index: 1;
+}
+.div27{
+	position:absolute;	
+	top: 0;
+	width:80%;
+	height:75vh;
+	display: grid;
+	place-items: center;
+    padding-top: 10px;
+    box-sizing:border-box;
+    z-index: 2;
+	margin: 5% 10%;
+   /*margin-top: 3%;*/
+   /* line-height:17px; */
+    text-align: center;
+   overflow:hidden;
+}
+  
+i{
+	color:white;
+	font-size: 90px;
+	text-align: center;
+}
+.div28{
+	width: 100%;
+	/* height: 95%; */
+	position: absolute;
+	top: 0;
+	animation: flow 20s infinite ;
+
+}
+
+.div28:nth-child(1){
+	left: 0;
+}
+.div28:nth-child(2){
+	left: 100%;
+}
+.div28:nth-child(3){
+	left: 200%;
+}
+@keyframes flow {
+	0%{
+		transform: origin;
+
+	}
+	50%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(-200%);
+	}
+
+}
+.div28 h1{
+	color:lightgrey;
+	font-family:Source Code Pro ;
+	line-height:40px;
+	margin-top: 4%;
+	font-size:20px;
+
+
+}
+.div28 p{
+	/*line-height:9px;*/
+	margin-top: 1%;
+	font-size: 18px;
+	font-family: Source Code Pro;
+	color: lightgrey;
+
+}
+.cake{
+	background-color:black;
+	width: 100%;
+	height:25vh ;
+	/*margin: ;*/
+	padding:10px ;
+	display:flex;
+	column-gap:30px;
+	box-sizing: border-box;
+}
+.cake> div{
+	width:25%;
+}
+.cake .div29{
+	text-align: center; 
+}
+
+.cake h1{
+    color:white;
+	font-size:35px;
+	text-align: center;
+	font-family:Tilt Prism ;
+}
+ .div29 p{
+	color:white;
+	font-size:17px;
+	text-align: center;
+	font-family:Tilt Prism ;
+
+}
+.cake .div30{
+	text-align: center; 
+}
+@media all and (min-width:300px) and (max-width:1000px) {
+	.press>ul{
+		display: none;
+	}
+	.div4{
+		padding-top:20px;
+	}
+	.div4 h1{
+		font-size: 3\20px;
+	}
+}
